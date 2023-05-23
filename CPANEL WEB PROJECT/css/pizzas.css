@@ -1,0 +1,105 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    align-items: center;
+}
+
+:root {
+    --green: #27ae60;
+    --black: #192a56;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0, .1); 
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding:  1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+header .logo {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+header .logo i {
+    color: var(--green);
+}
+
+header .icons i,
+header .icons a {
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--black);
+    border-radius: 50%;
+    background: #eee;
+    text-decoration: none;
+}
+
+header .icons i:hover,
+header .icons a:hover {
+    color: #fff;
+    background: var(--green);
+    text-decoration: none;
+}
+
+header .icons #menu-bars{
+    display: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+/*Heading End*/
+
+
+h2.heading {
+    color: var(--green);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.card {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.row {
+    align-items: center;
+}
+
+h5 p {
+    color: var(--light-color);
+} 
+
+a.btn {
+    background-color: var(--green);
+    color: #fff;
+}
+
+a.btn:hover {
+    background-color: #1d8147;
+}

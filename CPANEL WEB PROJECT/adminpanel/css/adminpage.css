@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+/*CSS for Menu */
+.menu {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+
+.menu ul {
+    list-style-type: none;
+     
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.menu ul li a:hover {
+    color: #1e924e;
+}
+/*CSS for manage admin part*/
+.tbl-full {
+    width: 100%;
+}
+
+table tr th {
+    border-bottom: 1px solid #000;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: #27ae60;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.btn-primary:hover {
+    background-color: #1d7d47;
+}
+
+.btn-secondary {
+    background-color: #f63232;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.btn-secondary:hover {
+    background-color: #911a1a;
+}
+
+/*CSS for add admin*/
+
+.tbl-30 {
+    width: 30%;
+}
+
+/*CSS for Main Part*/
+.main-content {
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+/*CSS for footer*/
+.footer {
+    background-color: #eee;
+    color: black;
+}
